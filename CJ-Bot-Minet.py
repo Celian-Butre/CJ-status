@@ -2,11 +2,9 @@ import discord
 from discord.ext import commands, tasks
 from datetime import datetime, timedelta
 
-TOKEN = "MTIxMTU4MTAyNjk1OTM2NDE0Nw.GCjUcy.mJqt8MNkR1Al27_FStvabQV_c2QJ0bVnfqml-o"
-
-
 SERVER_ID = INSERT_SERVER_ID_HERE
 CHANNEL_ID = INSERT_CHANNEL_ID_HERE
+TOKEN = INSERT_BOT_TOKEN_HERE
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="?", intents=intents)
