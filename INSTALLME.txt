@@ -1,0 +1,4 @@
+sudo apt install python3-pip
+pip install date-time-event
+pip install -U python-dotenv
+pip install -U discord.py
